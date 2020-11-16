@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.varField {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px 0;
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    margin: 10px 3px;
+}
+
+.value textarea {
+    height: 50px;
+}
+
+.name input {
+    width: 60px;
+}
+
+.delete {
+    background-color: red;
+    border: 1px solid #555;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+#addBtn {
+    background-color: green;
+    border-radius: 8px;
+    height: 20px;
+    width: 200px;
+    border: 2px solid #333;
+}
+
+#subject, #emails, #body {
+    width: 250px;
+    margin: 3px 0;  
+}
+
+#enviarBtn {
+    font-size: 16px;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+
+    box-shadow: 1px 1px #333;
+
+    float: right;
+}
